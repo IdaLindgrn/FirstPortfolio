@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+}
+
 header {
     padding: 3%;
     background-color: #FFEDDF;
@@ -13,19 +17,29 @@ nav {
 .container {
     display: flex;
     flex-direction: column;
-    align-content: center;
    
 }
 
+h2 {
+    padding-top: 10%;
+}
+
+p {
+    padding: 15%;
+    text-align: center;
+}
+
+
 main {
 background-color: white;
-height: 300px;
+color: #0A3200;
+
 width: 60%;
 }
 
 aside {
 background-color: #FFEDDF;
-height: 300px;
+
 width: 40%;
 }
 
