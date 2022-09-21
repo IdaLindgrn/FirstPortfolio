@@ -1,0 +1,23 @@
+header {
+    padding: 3%;
+    background-color: #FFEDDF;
+}
+
+nav {
+    background-image: url(img/fin.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 20%;
+}
+
+main {
+
+}
+
+aside {
+
+}
+
+
+@media screen and (min-width: 768px) {
+}
