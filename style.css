@@ -18,10 +18,7 @@ nav {
     padding: 20%;
 }
 
-.container {
-    display: flex;
-    flex-direction: column;
-}
+
 
 p {
     padding: 15%;
@@ -32,12 +29,12 @@ p {
 section {
 background-color: white;
 color: #0A3200;
-width: 150vh;
+
 }
 
 aside {
 background-color: #FFEDDF;
-width: 100vh;
+
 }
 
 footer {
@@ -46,12 +43,4 @@ footer {
     color: white;
     display: flex;
     justify-content: space-around;
-}
-
-@media screen and (min-width: 768px) {
-}
-
-.container {
-    display: flex;
-    flex-direction: row;
 }
