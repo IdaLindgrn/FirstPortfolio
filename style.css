@@ -1,3 +1,4 @@
+
 body {
     margin: 0;
 }
@@ -5,6 +6,9 @@ body {
 header {
     padding: 3%;
     background-color: #FFEDDF;
+    display: flex;
+    justify-content: space-between;
+    
 }
 
 nav {
@@ -17,11 +21,6 @@ nav {
 .container {
     display: flex;
     flex-direction: column;
-   
-}
-
-h2 {
-    padding-top: 10%;
 }
 
 p {
@@ -30,31 +29,29 @@ p {
 }
 
 
-main {
+section {
 background-color: white;
 color: #0A3200;
-
-width: 60%;
+width: 150vh;
 }
 
 aside {
 background-color: #FFEDDF;
-
-width: 40%;
+width: 100vh;
 }
 
 footer {
     padding: 10%;
     background-color: #0A3200;
     color: white;
+    display: flex;
+    justify-content: space-around;
 }
-
-
-
 
 @media screen and (min-width: 768px) {
 }
 
 .container {
+    display: flex;
     flex-direction: row;
 }
