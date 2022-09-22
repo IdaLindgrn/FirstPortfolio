@@ -11,7 +11,7 @@ header {
     
 }
 
-nav {
+div { 
     background-image: url(img/fin.jpg);
     background-size: cover;
     background-position: center;
@@ -29,18 +29,31 @@ p {
 section {
 background-color: white;
 color: #0A3200;
-
 }
 
 aside {
 background-color: #FFEDDF;
-
 }
 
 footer {
-    padding: 10%;
+    
+    font-size: 250%;
+    padding: 5%;
+    padding-left:  30%;
+    padding-right: 30%;
     background-color: #0A3200;
     color: white;
     display: flex;
     justify-content: space-around;
 }
+
+.fa-solid {
+    font-size: 300%;
+    color: white;   
+}
+
+.fa-brands {
+    color: white;   
+}
+
+

@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -16,19 +15,36 @@
       integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
       crossorigin="anonymous"
     ></script>
+    <script
+      src="https://kit.fontawesome.com/25f85f3913.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
     <title>Portfolio</title>
   </head>
   <body>
     <header>
       <i>Ida Lindgren</i>
-
       <a href="Hej">Hem</a>
     </header>
 
-    <nav></nav>
+    <div>
+      <i
+        class="fa-solid fa-frog fa-bounce"
+        style="
+          --fa-bounce-start-scale-x: 1;
+          --fa-bounce-start-scale-y: 1;
+          --fa-bounce-jump-scale-x: 1;
+          --fa-bounce-jump-scale-y: 1;
+          --fa-bounce-land-scale-x: 1;
+          --fa-bounce-land-scale-y: 1;
+        "
+      ></i>
+    </div>
+
     <main class="container-fluid">
-      <div class="row">
-        <section class="col-sm-12 col-md-6 col-lg-6" id="col1">
+      <article class="row">
+        <section class="col-sm-12 col-md-8 col-lg-8" id="col1">
           <h2>Hej</h2>
           <article>
             <p>
@@ -40,7 +56,7 @@
           </article>
         </section>
 
-        <aside class="col-sm-12 col-md-6 col-lg-6" id="col2">
+        <aside class="col-sm-12 col-md-4 col-lg-4" id="col2">
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
             non autem, perferendis similique sequi vero inventore quod nesciunt
@@ -51,13 +67,18 @@
             quidem magni itaque, fugiat animi optio tempora soluta.
           </p>
         </aside>
-      </div>
+      </article>
     </main>
-
     <footer>
-      <i>jnfelw</i>
-      <i>nidgewgb</i>
-      <i>fieanof</i>
+      <a href="https://medieinstitutet.se/">
+        <i class="fa-solid fa-location-dot"></i
+      ></a>
+      <a href="https://www.linkedin.com/in/ida-lindgren-0b6099207/"
+        ><i class="fa-brands fa-linkedin"></i
+      ></a>
+      <a href="https://github.com/IdaLindgrn/portfolio"
+        ><i class="fa-brands fa-github"></i
+      ></a>
     </footer>
   </body>
 </html>
