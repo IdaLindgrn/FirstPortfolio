@@ -10,6 +10,22 @@ header {
     justify-content: space-between;
 }
 
+figure { 
+    background-image: url(img/fin.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 20%;
+    margin: 0;
+}
+
+h1 {
+    padding: 4%;
+}
+
+p {
+    padding-top: 2%;
+}
+
 .fa-solid {
     padding-left: 15%;
     font-size: 250%;
@@ -17,24 +33,6 @@ header {
     display: flex;
     align-items: flex-end;
 }
-
-div { 
-    background-image: url(img/fin.jpg);
-    background-size: cover;
-    background-position: center;
-    padding: 20%;
-}
-
-h1 {
-    padding: 4%;
-}
-
-
-p {
-    padding-top: 2%;
-}
-
-
 
 section {
 background-color: white;
@@ -45,12 +43,12 @@ padding: 5%;
 
 aside {
 background-color: #FFEDDF;
+color: #0A3200;
 text-align: center;
 padding: 5%;
 }
 
-footer {
-    
+footer { 
     font-size: 250%;
     padding: 5%;
     padding-left:  30%;
@@ -62,7 +60,6 @@ footer {
 
 .fa-brands {
     color: white;
-    font-size: 100%;
 }
 
 
