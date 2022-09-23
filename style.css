@@ -4,11 +4,18 @@ body {
 }
 
 header {
-    padding: 3%;
+    padding: 2%;
     background-color: #FFEDDF;
     display: flex;
     justify-content: space-between;
-    
+}
+
+.fa-solid {
+    padding-left: 15%;
+    font-size: 250%;
+    color: #0A3200;   
+    display: flex;
+    align-items: flex-end;
 }
 
 div { 
@@ -18,21 +25,28 @@ div {
     padding: 20%;
 }
 
+h1 {
+    padding: 4%;
+}
 
 
 p {
-    padding: 15%;
-    text-align: center;
+    padding-top: 2%;
 }
+
 
 
 section {
 background-color: white;
 color: #0A3200;
+text-align: center;
+padding: 5%;
 }
 
 aside {
 background-color: #FFEDDF;
+text-align: center;
+padding: 5%;
 }
 
 footer {
@@ -42,18 +56,14 @@ footer {
     padding-left:  30%;
     padding-right: 30%;
     background-color: #0A3200;
-    color: white;
     display: flex;
     justify-content: space-around;
 }
 
-.fa-solid {
-    font-size: 300%;
-    color: white;   
+.fa-brands {
+    color: white;
+    font-size: 100%;
 }
 
-.fa-brands {
-    color: white;   
-}
 
 
